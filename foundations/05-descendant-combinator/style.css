@@ -1,8 +1,13 @@
-div p{
+ .container .text{
     background-color: yellow;
-    font-size: 22px;
+    color:red;
+    font-size: 20px;
+    text-align:center;
+ }
+/*.container .text {
+    background-color: yellow;
     color: red;
+    font-size: 20px;
     text-align: center;
-    font-weight: 500;
-
-}
+  }
+*/
