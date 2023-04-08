@@ -9,6 +9,8 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,5 +46,26 @@ a {
 }
 
 ul {
+  gap: 8px;
   list-style-type: none;
 }
+
+.left{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
