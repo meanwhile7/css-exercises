@@ -19,7 +19,7 @@ body {
 
 .header{
   display: flex;
-  justify-content: space-between;
+  justify-content: spacevc-between;
   align-items: center;
   font-size: 18px;
   font-weight: 700;
